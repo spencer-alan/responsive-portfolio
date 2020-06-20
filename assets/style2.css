@@ -1,5 +1,19 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: lightslategray;
     min-height: 75rem;
     padding-top: 3.5rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #343a40;
 }
